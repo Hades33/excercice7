@@ -21,7 +21,7 @@
 			<?php $blog_info = get_bloginfo( 'name' ); ?>
 			<?php if ( ! empty( $blog_info ) ) : ?>
 				
-			<?php endif; ?>
+			<?php endif; ?> <?php echo esc_url( home_url('/')); ?>
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentynineteen' ) ); ?>" class="imprint">
 				
 				

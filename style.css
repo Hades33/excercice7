@@ -19,6 +19,13 @@ body {
   display: none;
 }
 
+@media only screen and (max-width: 600px) {
+  .site-description {
+    margin-right: 7em;
+    font-size: 25px;
+  }
+}
+
 .rayure-grise {
   background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px, #eee 40px);
 }
