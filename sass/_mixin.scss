@@ -1,0 +1,6 @@
+@mixin couleurFooter($size, $color, $bColor) {
+    color: $color;
+    font-size: $size;
+    background-color: $bColor;
+  }
+  
